@@ -1,0 +1,39 @@
+//theme colors
+$primary: #1e0e62 !default;
+$secondary: #482be7 !default;
+$tertiary: #15143966 !default;
+$info: #f6c31c !default;
+$error: #d32752 !default;
+$twitter: #1da1f2;
+$facebook: #1877f2;
+$youtube: #ff0000;
+$black: #000000;
+$white: #ffffff;
+
+//color palette
+$colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "tertiary": $tertiary,
+  "info": $info,
+  "error": $error,
+  "tw": $twitter,
+  "fb": $facebook,
+  "yt": $youtube,
+  "black": $black,
+  "white": $white,
+);
+
+//padding
+$base-padding: 0.75rem;
+
+//margin
+$base-margin: 0.75rem;
+
+//shadow
+$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+
+//border
+$base-border-radius: 20px;
+$base-border-thickness: 3;
+$base-border-styles: solid, dashed, dotted;
