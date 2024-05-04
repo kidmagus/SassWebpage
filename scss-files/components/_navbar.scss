@@ -13,7 +13,7 @@
 }
 
 @each $key, $val in $colors {
-  .navbar-#{key} {
+  .navbar-#{$key} {
     @extend .navbar;
     background: $val;
   }
