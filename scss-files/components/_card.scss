@@ -1,0 +1,31 @@
+@mixin card($bg-color: #fff) {
+  display: block;
+  padding: $base-padding;
+  background-color: $bg-color;
+  box-shadow: $base-box-shadow;
+
+  .card-title {
+    font-size: $font-size-lg;
+    padding-bottom: $base-padding;
+    font-weight: $base-font-weight;
+  }
+
+  .card-body {
+    font-size: $base-font-size;
+
+    a {
+      text-decoration: underline;
+    }
+  }
+}
+
+.card {
+  @include card;
+}
+
+@each $key, $val in $colors {
+  .card-#{$key} {
+    @include card;
+    background-color: $val;
+  }
+}

@@ -9,8 +9,13 @@ $grid-gaps: (
 );
 
 @each $key, $value in $grid-gaps {
+  .gap-#{$key} > * {
+    padding: $value;
+  }
+
   .gap-#{$key} {
-    gap: $value;
+    margin-left: -$value;
+    margin-right: -$value;
   }
 }
 
@@ -68,12 +73,9 @@ $grid-columns: 12;
     }
   }
 
-  
-  
   .container {
     flex-direction: column;
   }
- 
 }
 
 @include sm {
@@ -88,9 +90,6 @@ $grid-columns: 12;
   .container {
     flex-direction: column;
   }
-
-
- 
 }
 
 @include md {
@@ -105,9 +104,6 @@ $grid-columns: 12;
   .container {
     flex-direction: column;
   }
-
-
- 
 }
 
 @include lg {
@@ -116,17 +112,12 @@ $grid-columns: 12;
       box-sizing: border-box;
       flex-grow: 0;
       width: math.div($i * 100%, $grid-columns);
-
-      
     }
   }
 
   .container {
     flex-direction: row;
   }
-
-
- 
 }
 
 @include xl {
@@ -141,14 +132,12 @@ $grid-columns: 12;
   .container {
     flex-direction: row;
   }
-
- 
 }
 
 //base layout classes
 .row {
   display: flex;
-  flex-grow: row wrap;
+  flex-flow: row wrap;
 }
 
 .align-center {

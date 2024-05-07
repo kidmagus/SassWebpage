@@ -14,6 +14,7 @@
 }
 
 @each $key, $val in $colors {
+  //button colors
   .btn-#{$key} {
     @include btn;
     background-color: $val;
@@ -22,7 +23,7 @@
       background-color: darken($val, 10%);
     }
   }
-
+  //button outlined colors
   .btn-outlined-#{$key} {
     @include btn(#fff);
     border: 1px solid $val;
