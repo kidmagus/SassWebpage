@@ -1,0 +1,14 @@
+.footer {
+  h3,
+  p {
+    color: $primary;
+  }
+
+  h3 {
+    font-size: $font-size-md;
+  }
+
+  label {
+    color: $tertiary;
+  }
+}

@@ -56,7 +56,7 @@ $layout-values: flex-start, flex-end, center, space-between, space-around,
 //Flex direction classes
 $flex-values: row, column, column-reverse, row-reverse;
 @each $value in $flex-values {
-  .flex-#{value} {
+  .flex-#{$value} {
     flex-direction: $value;
   }
 }

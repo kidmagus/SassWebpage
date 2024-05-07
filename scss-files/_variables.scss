@@ -4,6 +4,7 @@ $secondary: #482be7 !default;
 $tertiary: #15143966 !default;
 $info: #f6c31c !default;
 $error: #d32752 !default;
+$green: #25dac5 !default;
 $twitter: #1da1f2;
 $facebook: #1877f2;
 $youtube: #ff0000;
@@ -17,6 +18,7 @@ $colors: (
   "tertiary": $tertiary,
   "info": $info,
   "error": $error,
+  "green": $green,
   "tw": $twitter,
   "fb": $facebook,
   "yt": $youtube,
@@ -25,15 +27,15 @@ $colors: (
 );
 
 //padding
-$base-padding: 0.75rem;
+$base-padding: 0.75rem !default;
 
 //margin
-$base-margin: 0.75rem;
+$base-margin: 0.75rem !default;
 
 //shadow
-$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.7);
+$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.7) !default;
 
 //border
-$base-border-radius: 20px;
-$base-border-thickness: 1px;
-$base-border-styles: solid, dashed, dotted;
+$base-border-radius: 20px !default;
+$base-border-thickness: 1px !default;
+$base-border-styles: solid, dashed, dotted !default;
