@@ -904,15 +904,14 @@ hr {
   background-color: #fff;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.7);
 }
-.card .card-title {
+.card__title {
   font-size: 2rem;
   padding-bottom: 0.75rem;
-  font-weight: 300;
 }
-.card .card-body {
+.card__body {
   font-size: 1rem;
 }
-.card .card-body a {
+.card__body a {
   text-decoration: underline;
 }
 
@@ -923,15 +922,14 @@ hr {
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.7);
   background-color: #1e0e62;
 }
-.card-primary .card-title {
+.card-primary__title {
   font-size: 2rem;
   padding-bottom: 0.75rem;
-  font-weight: 300;
 }
-.card-primary .card-body {
+.card-primary__body {
   font-size: 1rem;
 }
-.card-primary .card-body a {
+.card-primary__body a {
   text-decoration: underline;
 }
 
@@ -942,15 +940,14 @@ hr {
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.7);
   background-color: #482be7;
 }
-.card-secondary .card-title {
+.card-secondary__title {
   font-size: 2rem;
   padding-bottom: 0.75rem;
-  font-weight: 300;
 }
-.card-secondary .card-body {
+.card-secondary__body {
   font-size: 1rem;
 }
-.card-secondary .card-body a {
+.card-secondary__body a {
   text-decoration: underline;
 }
 
@@ -961,15 +958,14 @@ hr {
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.7);
   background-color: rgba(21, 20, 57, 0.4);
 }
-.card-tertiary .card-title {
+.card-tertiary__title {
   font-size: 2rem;
   padding-bottom: 0.75rem;
-  font-weight: 300;
 }
-.card-tertiary .card-body {
+.card-tertiary__body {
   font-size: 1rem;
 }
-.card-tertiary .card-body a {
+.card-tertiary__body a {
   text-decoration: underline;
 }
 
@@ -980,15 +976,14 @@ hr {
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.7);
   background-color: #f6c31c;
 }
-.card-info .card-title {
+.card-info__title {
   font-size: 2rem;
   padding-bottom: 0.75rem;
-  font-weight: 300;
 }
-.card-info .card-body {
+.card-info__body {
   font-size: 1rem;
 }
-.card-info .card-body a {
+.card-info__body a {
   text-decoration: underline;
 }
 
@@ -999,15 +994,14 @@ hr {
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.7);
   background-color: #d32752;
 }
-.card-error .card-title {
+.card-error__title {
   font-size: 2rem;
   padding-bottom: 0.75rem;
-  font-weight: 300;
 }
-.card-error .card-body {
+.card-error__body {
   font-size: 1rem;
 }
-.card-error .card-body a {
+.card-error__body a {
   text-decoration: underline;
 }
 
@@ -1018,15 +1012,14 @@ hr {
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.7);
   background-color: #1da1f2;
 }
-.card-tw .card-title {
+.card-tw__title {
   font-size: 2rem;
   padding-bottom: 0.75rem;
-  font-weight: 300;
 }
-.card-tw .card-body {
+.card-tw__body {
   font-size: 1rem;
 }
-.card-tw .card-body a {
+.card-tw__body a {
   text-decoration: underline;
 }
 
@@ -1037,15 +1030,14 @@ hr {
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.7);
   background-color: #1877f2;
 }
-.card-fb .card-title {
+.card-fb__title {
   font-size: 2rem;
   padding-bottom: 0.75rem;
-  font-weight: 300;
 }
-.card-fb .card-body {
+.card-fb__body {
   font-size: 1rem;
 }
-.card-fb .card-body a {
+.card-fb__body a {
   text-decoration: underline;
 }
 
@@ -1056,15 +1048,14 @@ hr {
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.7);
   background-color: #ff0000;
 }
-.card-yt .card-title {
+.card-yt__title {
   font-size: 2rem;
   padding-bottom: 0.75rem;
-  font-weight: 300;
 }
-.card-yt .card-body {
+.card-yt__body {
   font-size: 1rem;
 }
-.card-yt .card-body a {
+.card-yt__body a {
   text-decoration: underline;
 }
 
@@ -1075,15 +1066,14 @@ hr {
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.7);
   background-color: #000000;
 }
-.card-black .card-title {
+.card-black__title {
   font-size: 2rem;
   padding-bottom: 0.75rem;
-  font-weight: 300;
 }
-.card-black .card-body {
+.card-black__body {
   font-size: 1rem;
 }
-.card-black .card-body a {
+.card-black__body a {
   text-decoration: underline;
 }
 
@@ -1094,15 +1084,14 @@ hr {
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.7);
   background-color: #ffffff;
 }
-.card-white .card-title {
+.card-white__title {
   font-size: 2rem;
   padding-bottom: 0.75rem;
-  font-weight: 300;
 }
-.card-white .card-body {
+.card-white__body {
   font-size: 1rem;
 }
-.card-white .card-body a {
+.card-white__body a {
   text-decoration: underline;
 }
 

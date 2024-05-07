@@ -4,13 +4,12 @@
   background-color: $bg-color;
   box-shadow: $base-box-shadow;
 
-  .card-title {
+  &__title {
     font-size: $font-size-lg;
     padding-bottom: $base-padding;
-    font-weight: $base-font-weight;
   }
 
-  .card-body {
+  &__body {
     font-size: $base-font-size;
 
     a {
