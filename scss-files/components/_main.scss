@@ -1,0 +1,13 @@
+@include xs {
+  .main {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@include lg {
+  .main {
+    justify-content: space-between;
+    text-align: left;
+  }
+}

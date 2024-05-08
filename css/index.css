@@ -939,7 +939,7 @@ hr {
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.7);
 }
 .card__title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-bottom: 0.75rem;
 }
 .card__body {
@@ -957,7 +957,7 @@ hr {
   background-color: #1e0e62;
 }
 .card-primary__title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-bottom: 0.75rem;
 }
 .card-primary__body {
@@ -975,7 +975,7 @@ hr {
   background-color: #482be7;
 }
 .card-secondary__title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-bottom: 0.75rem;
 }
 .card-secondary__body {
@@ -993,7 +993,7 @@ hr {
   background-color: rgba(21, 20, 57, 0.4);
 }
 .card-tertiary__title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-bottom: 0.75rem;
 }
 .card-tertiary__body {
@@ -1011,7 +1011,7 @@ hr {
   background-color: #f6c31c;
 }
 .card-info__title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-bottom: 0.75rem;
 }
 .card-info__body {
@@ -1029,7 +1029,7 @@ hr {
   background-color: #d32752;
 }
 .card-error__title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-bottom: 0.75rem;
 }
 .card-error__body {
@@ -1047,7 +1047,7 @@ hr {
   background-color: #25dac5;
 }
 .card-green__title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-bottom: 0.75rem;
 }
 .card-green__body {
@@ -1065,7 +1065,7 @@ hr {
   background-color: #1da1f2;
 }
 .card-tw__title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-bottom: 0.75rem;
 }
 .card-tw__body {
@@ -1083,7 +1083,7 @@ hr {
   background-color: #1877f2;
 }
 .card-fb__title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-bottom: 0.75rem;
 }
 .card-fb__body {
@@ -1101,7 +1101,7 @@ hr {
   background-color: #ff0000;
 }
 .card-yt__title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-bottom: 0.75rem;
 }
 .card-yt__body {
@@ -1119,7 +1119,7 @@ hr {
   background-color: #000000;
 }
 .card-black__title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-bottom: 0.75rem;
 }
 .card-black__body {
@@ -1137,7 +1137,7 @@ hr {
   background-color: #ffffff;
 }
 .card-white__title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-bottom: 0.75rem;
 }
 .card-white__body {
@@ -1170,10 +1170,6 @@ hr {
   .header__navs {
     column-gap: 10px;
   }
-  .main {
-    justify-content: center;
-    text-align: center;
-  }
 }
 @media (min-width: 480px) {
   .header {
@@ -1181,9 +1177,6 @@ hr {
   }
   .header__navs {
     column-gap: 30px;
-  }
-  .main {
-    text-align: center;
   }
 }
 @media (min-width: 720px) {
@@ -1193,9 +1186,6 @@ hr {
   .header__navs {
     column-gap: 50px;
   }
-  .main {
-    text-align: center;
-  }
 }
 @media (min-width: 960px) {
   .header {
@@ -1203,10 +1193,6 @@ hr {
   }
   .header__navs {
     column-gap: 50px;
-  }
-  .main {
-    justify-content: space-between;
-    text-align: left;
   }
 }
 @media (min-width: 1200px) {
@@ -1228,6 +1214,18 @@ hr {
   color: rgba(21, 20, 57, 0.4);
 }
 
+@media (min-width: 0) {
+  .main {
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media (min-width: 960px) {
+  .main {
+    justify-content: space-between;
+    text-align: left;
+  }
+}
 .text-primary {
   color: #1e0e62;
 }

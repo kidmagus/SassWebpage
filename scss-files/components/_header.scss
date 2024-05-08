@@ -27,11 +27,6 @@
       @include nav-gap(10px);
     }
   }
-
-  .main {
-    justify-content: center;
-    text-align: center;
-  }
 }
 
 @include sm {
@@ -41,10 +36,6 @@
     &__navs {
       @include nav-gap(30px);
     }
-  }
-
-  .main {
-    text-align: center;
   }
 }
 
@@ -56,10 +47,6 @@
       @include nav-gap(50px);
     }
   }
-
-  .main {
-    text-align: center;
-  }
 }
 
 @include lg {
@@ -69,10 +56,6 @@
     &__navs {
       @include nav-gap(50px);
     }
-  }
-  .main {
-    justify-content: space-between;
-    text-align: left;
   }
 }
 
