@@ -198,6 +198,15 @@ $utilities: (
       "full": 50%,
     ),
   ),
+
+  "text-decoration": (
+    "prefix": "text",
+    "values": (
+      "overline": overline,
+      "line-through": line-through,
+      "underline": underline,
+    ),
+  ),
 );
 
 @each $property, $map in $utilities {

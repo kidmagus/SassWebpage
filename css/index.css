@@ -8913,6 +8913,18 @@ hr {
   border-radius: 50%;
 }
 
+.text-overline {
+  text-decoration: overline;
+}
+
+.text-line-through {
+  text-decoration: line-through;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
 .leading-1 {
   line-height: 10px;
 }
