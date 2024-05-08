@@ -1224,6 +1224,7 @@ hr {
   .main {
     justify-content: space-between;
     text-align: left;
+    flex-flow: nowrap;
   }
 }
 .text-primary {
