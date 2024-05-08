@@ -8862,6 +8862,18 @@ input:checked + .slider:before {
   letter-spacing: 3px;
 }
 
+.mx-width-200 {
+  max-width: 200px;
+}
+
+.mx-width-230 {
+  max-width: 230px;
+}
+
+.mx-width-250 {
+  max-width: 250px;
+}
+
 .mx-width-300 {
   max-width: 300px;
 }
