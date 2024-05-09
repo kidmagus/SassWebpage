@@ -153,6 +153,7 @@ $utilities: (
       "230": 230px,
       "250": 250px,
       "300": 300px,
+      "310": 310px,
       "480": 480px,
       "650": 650px,
       "768": 768px,
@@ -165,6 +166,8 @@ $utilities: (
     "prefix": "h",
     "values": (
       "200": 200px,
+      "210": 210px,
+      "220": 220px,
       "230": 230px,
       "250": 250px,
       "300": 300px,
@@ -258,16 +261,5 @@ $utilities: (
 @for $i from 1 through $base-line-height {
   .leading-#{$i} {
     line-height: math.div($i * 100px, $base-line-height);
-  }
-}
-
-//border
-@for $i from 1 through 3 {
-  @each $key, $value in $colors {
-    @each $valueStyles in $base-border-styles {
-      .border-#{$i}-#{$valueStyles}-#{$key} {
-        border: $i + 0px $valueStyles $value;
-      }
-    }
   }
 }
