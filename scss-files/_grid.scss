@@ -38,7 +38,7 @@ $gaps: (
     column-gap: $value;
   }
 
-  .row-gap-#{key} {
+  .row-gap-#{$key} {
     row-gap: $value;
   }
 }

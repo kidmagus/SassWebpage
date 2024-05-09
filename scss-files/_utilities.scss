@@ -161,6 +161,22 @@ $utilities: (
       "1200": 1200px,
     ),
   ),
+  "max-height": (
+    "prefix": "h",
+    "values": (
+      "200": 200px,
+      "230": 230px,
+      "250": 250px,
+      "300": 300px,
+      "480": 480px,
+      "650": 650px,
+      "768": 768px,
+      "840": 840px,
+      "1024": 1024px,
+      "1100": 1100px,
+      "1200": 1200px,
+    ),
+  ),
 
   "opacity": (
     "prefix": "o",
@@ -208,6 +224,13 @@ $utilities: (
       "overline": overline,
       "line-through": line-through,
       "underline": underline,
+    ),
+  ),
+
+  "white-space": (
+    "prefix": "ws",
+    "values": (
+      "nowrap": nowrap,
     ),
   ),
 );
