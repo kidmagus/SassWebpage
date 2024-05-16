@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <!-- Link to the file hosted on your server, -->
+    <link
+      rel="stylesheet"
+      href="node_modules/@splidejs/splide/dist/css/splide.min.css"
+    />
+  </head>
+  <body>
+    <div class="navbar-primary p-2">
+      <div class="container text-white">Hi</div>
+    </div>
+
+    <div class="mt-1">
+      <div class="splide bg-secondary p-2">
+        <div style="position: relative">
+          <div class="splide__arrows your-class-arrows">
+            <button
+              class="splide__arrow your-class-arrow splide__arrow--next your-class-next"
+            >
+              >
+            </button>
+            <button
+              class="splide__arrow your-class-arrow splide__arrow--prev your-class-prev"
+            >
+              <
+            </button>
+          </div>
+          <div class="splide__slider">
+            <div class="splide__track">
+              <div class="splide__list">
+                <li class="splide__slide slide">
+                  <div class="splide__content content">
+                    <h2>Title</h2>
+                    <p>BodyText</p>
+                    <button>CTA</button>
+                  </div>
+
+                  <img src="img/car1.jpg" />
+                </li>
+                <li class="splide__slide slide">
+                  <div class="splide__content content">
+                    <h2>Title2</h2>
+                    <p>BodyText</p>
+                    <button>CTA</button>
+                  </div>
+                  <img src="img/car2.jpg" />
+                </li>
+                <li class="splide__slide slide">
+                  <div class="splide__content content">
+                    <h2>Title3</h2>
+                    <p>BodyText</p>
+                    <button>CTA</button>
+                  </div>
+                  <img src="img/car3.jpg" />
+                </li>
+                <li class="splide__slide slide">
+                  <div class="splide__content content">
+                    <h2>Title4</h2>
+                    <p>BodyText</p>
+                    <button>CTA</button>
+                  </div>
+                  <img src="img/car4.jpg" />
+                </li>
+                <li class="splide__slide slide">
+                  <img src="img/car5.jpg" />
+                </li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
+    <script src="js/carousel.js"></script>
+  </body>
+</html>
