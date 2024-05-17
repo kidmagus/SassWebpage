@@ -26,13 +26,39 @@
 
 .content {
   position: absolute;
-  background-color: orangered;
+  background: none;
+  color: #fff;
+  margin: 0;
+  padding: 24px 36px 30px;
   padding: 20px;
   left: 50px;
   top: 200px;
-  display: none;
+  transition: 0.7s linear;
+  // animation:
+  //   mymove 4s ease infinite,
+  //   fade 1s linear infinite;
+  button {
+    background-color: orangered;
+    border: none;
+    padding: 8px 10px;
+  }
 }
 
-.content.expanded {
-  display: block;
+.content.animate {
+  animation-name: anim;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+}
+
+// .content.stop {
+//   animation-play-state: paused;
+// }
+
+@keyframes anim {
+  from {
+    transform: translateX(5px);
+  }
+  to {
+    transform: translateX(30px);
+  }
 }

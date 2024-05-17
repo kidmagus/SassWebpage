@@ -7,6 +7,9 @@ const splide = new Splide(".splide", {
     next: "splide__arrow--next your-class-next",
   },
   rewind: true,
+  perPage: 1,
+  autoplay: true,
+  interval: 5000,
   type: "fade",
 });
 
@@ -15,25 +18,23 @@ splide.mount();
 // attach events to custom buttons
 const btnNext = document.querySelector(".splide__arrow--next");
 const btnPrev = document.querySelector(".splide__arrow--prev");
-btnNext.addEventListener("click", (e) => {
+
+btnNext.addEventListener("click", () => {
   splide.go();
 });
 
-btnPrev.addEventListener("click", (e) => {
+btnPrev.addEventListener("click", () => {
   splide.go();
 });
 
-const slides = document.querySelectorAll(".slide");
+document.addEventListener("DOMContentLoaded", function () {
+  splide.on("active", function (e) {
+    const element = document.querySelectorAll(".content");
+    element[e.index].classList.add("animate");
+  });
 
-slides.forEach((slide) => {
-  const splideContent = slide.querySelector(".content");
-
-  if (!slide.classList.contains("is-active")) {
-    splideContent.classList.remove("expanded");
-  } else if (slide.classList.contains("is-active")) {
-    splideContent.classList.add("expanded");
-  }
-  console.log(slide);
-
-  console.log(splideContent);
+  splide.on("inactive", function (e) {
+    const element = document.querySelectorAll(".content");
+    element[e.index].classList.remove("animate");
+  });
 });
